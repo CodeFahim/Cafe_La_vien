@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Screenshot 2025-09-11 134659" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2025-09-11 134659.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="brown-shade-brush-strokes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\brown-shade-brush-strokes.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dark Brown Vintage Retro Coffee Shop Logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dark Brown Vintage Retro Coffee Shop Logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="restaurant-bar-coffee-shop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\restaurant-bar-coffee-shop.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2025-09-13 1125184" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2025-09-13 1125184.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="d9e3ce45-9a38-4b48-b15c-c7580c4082da" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\d9e3ce45-9a38-4b48-b15c-c7580c4082da.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cafe shop food order adding to cart image cartoon type dark brown image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cafe shop food order adding to cart image cartoon type dark brown image.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="customer history images for cafe cartoon charechtersitic type less people more cafe visual (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\customer history images for cafe cartoon charechtersitic type less people more cafe visual (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="A warm and inviting cafe interior with a rustic, bohemian aesthetic. Sunlight streams through large windows, illuminating wooden tables and comfortable seating. Shelves are adorned with plants and artisanal decor2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\A warm and inviting cafe interior with a rustic, bohemian aesthetic. Sunlight streams through large windows, illuminating wooden tables and comfortable seating. Shelves are adorned with plants and artisanal decor. T2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="food-menu" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\food-menu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ORANGE SHADED COLOURS which is unique (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ORANGE SHADED COLOURS which is unique (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="add to cart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\add to cart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cafe shop customer ordering image cartoon type people a compuer in counter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cafe shop customer ordering image cartoon type people a compuer in counter.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Create  cafe image that i can add in my page of cafe some more design give some aesthetic vibe and the background be slightly blur slightly less blur" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Create  cafe image that i can add in my page of cafe some more design give some aesthetic vibe and the background be slightly blur slightly less blur.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="menu-icon-vector-cafe-collection-thin-line-outline-illustration-linear-symbol-use-web-mobile-apps-logo-print-media-142612365" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\menu-icon-vector-cafe-collection-thin-line-outline-illustration-linear-symbol-use-web-mobile-apps-logo-print-media-142612365.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2167-10-burntcaramel_2000x_bb8cf2e7-997a-4b42-b553-57dd08994dac_600x" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2167-10-burntcaramel_2000x_bb8cf2e7-997a-4b42-b553-57dd08994dac_600x.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="group" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\group.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="barista-coffee-icon-editable-stroke-260nw-2058210308" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\barista-coffee-icon-editable-stroke-260nw-2058210308.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Beautiful coffee shop1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Beautiful coffee shop.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logout-sign-out-icon-in-line-style-vector" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logout-sign-out-icon-in-line-style-vector.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="people" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\people.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2025-09-13 1125182" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2025-09-13 1125182.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cafe shop  cashier taking order in counter images  backgorund is more visualized a nice coffe shop counter is shown from front a computer in counter to take order" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cafe shop  cashier taking order in counter images  backgorund is more visualized a nice coffe shop counter is shown from front a computer in counter to take order.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dark Brown Vintage Retro Coffee Shop Logo1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dark Brown Vintage Retro Coffee Shop Logo1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dark Brown Vintage Retro Coffee Shop Logo2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dark Brown Vintage Retro Coffee Shop Logo2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Beautiful coffee shop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Beautiful coffee shop.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="65c56b3f-64a9-40c1-b05e-12c7ad9a1fa1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\65c56b3f-64a9-40c1-b05e-12c7ad9a1fa1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="A warm and inviting cafe interior with a rustic, bohemian aesthetic. Sunlight streams through large windows, illuminating wooden tables and comfortable seating. Shelves are adorned with plants and artisanal decor1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\A warm and inviting cafe interior with a rustic, bohemian aesthetic. Sunlight streams through large windows, illuminating wooden tables and comfortable seating. Shelves are adorned with plants and artisanal decor. T1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="A warm and inviting cafe interior with a rustic, bohemian aesthetic. Sunlight streams through large windows, illuminating wooden tables and comfortable seating. Shelves are adorned with plants and artisanal decor. T" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\A warm and inviting cafe interior with a rustic, bohemian aesthetic. Sunlight streams through large windows, illuminating wooden tables and comfortable seating. Shelves are adorned with plants and artisanal decor. T.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="stats" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\stats.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="customer history images for cafe cartoon charechtersitic type less people more cafe visual" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\customer history images for cafe cartoon charechtersitic type less people more cafe visual.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2025-09-13 123040" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2025-09-13 123040.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="coffee-house-queue-composition-isometric-barista-isolated-coffeeshop-image-blank-background-vector-illustration-262850521" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\coffee-house-queue-composition-isometric-barista-isolated-coffeeshop-image-blank-background-vector-illustration-262850521.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sale-report" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sale-report.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="catering" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\catering.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="images (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\images (1).jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="red solid color" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\red solid color.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="orange color solid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\orange color solid.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="profile (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\profile (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cafe sales record image (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cafe sales record image (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2025-09-13 123311" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2025-09-13 123311.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="avatar-profile-picture-icon-blue-background-flat-design-style-resources-graphic-element-design_991720-653" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\avatar-profile-picture-icon-blue-background-flat-design-style-resources-graphic-element-design_991720-653.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="transaction-history-icon-vector-image-can-be-used-online-money-services_120816-273079" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\transaction-history-icon-vector-image-can-be-used-online-money-services_120816-273079.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="team-management" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\team-management.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2025-09-13 123055" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2025-09-13 123055.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cafe shop  cashier taking order in counter images  backgorund is more visualized a nice coffe shop counter is shown from front a computer in counter to take order cartoon type but less people" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cafe shop  cashier taking order in counter images  backgorund is more visualized a nice coffe shop counter is shown from front a computer in counter to take order cartoon type but less people.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9314f1b6-0e69-457a-bedb-f5ebc8571fdb" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9314f1b6-0e69-457a-bedb-f5ebc8571fdb.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cafe sales record image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cafe sales record image.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="self-service (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\self-service (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="4964945" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\4964945.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="154346" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\154346.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2025-09-13 1125181" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2025-09-13 1125181.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cafe shop  cashier taking order in counter images  backgorund is more visualized a nice coffe shop counter is shown from front a computer in counter to take order cartoon type but less people (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cafe shop  cashier taking order in counter images  backgorund is more visualized a nice coffe shop counter is shown from front a computer in counter to take order cartoon type but less people (1).jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="profile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\profile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2025-09-13 1125183" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2025-09-13 1125183.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2025-09-13 112518" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2025-09-13 112518.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logout-sign-out" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logout-sign-out.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="wp11903029" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\wp11903029.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logout-sign-out-icon-in-line-style-vector1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logout-sign-out-icon-in-line-style-vector1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LogIn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LogIn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Screenshot 2025-09-13 115424" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Screenshot 2025-09-13 115424.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="brown-shade-brush-strokes1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\brown-shade-brush-strokes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cafe shop user profile page image" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cafe shop user profile page image.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="360_F_127158933_cDZA4suMXsx2n0LQ03FzpX50R7fBaUx2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\360_F_127158933_cDZA4suMXsx2n0LQ03FzpX50R7fBaUx2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="photo-1453614512568-c4024d13c247" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\photo-1453614512568-c4024d13c247.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="A charming cartoon illustration of a cafe shop scene, focusing on a hand adding a delicious food order to a shopping cart icon. The overall color palette is dominated by rich, dark brown tones, evoking a cozy and in" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\A charming cartoon illustration of a cafe shop scene, focusing on a hand adding a delicious food order to a shopping cart icon. The overall color palette is dominated by rich, dark brown tones, evoking a cozy and in.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="search" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CEDB45F3-F7A9-4CC3-BF45-BE2198F01F48}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Cafe_La_Vien</RootNamespace>
+    <AssemblyName>Cafe La Vien</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DataAccess.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAdmin.Designer.cs">
+      <DependentUpon>FormAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCashier.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCashier.Designer.cs">
+      <DependentUpon>FormCashier.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLoginPanel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLoginPanel.Designer.cs">
+      <DependentUpon>FormLoginPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormManageMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormManageMenu.Designer.cs">
+      <DependentUpon>FormManageMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUserManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUserManage.Designer.cs">
+      <DependentUpon>FormUserManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormUserProfile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormUserProfile.Designer.cs">
+      <DependentUpon>FormUserProfile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAdmin.resx">
+      <DependentUpon>FormAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCashier.resx">
+      <DependentUpon>FormCashier.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLoginPanel.resx">
+      <DependentUpon>FormLoginPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormManageMenu.resx">
+      <DependentUpon>FormManageMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUserManage.resx">
+      <DependentUpon>FormUserManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormUserProfile.resx">
+      <DependentUpon>FormUserProfile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Beautiful coffee shop.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Beautiful coffee shop.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\photo-1453614512568-c4024d13c247.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %281%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\restaurant-bar-coffee-shop.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wp11903029.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dark Brown Vintage Retro Coffee Shop Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\avatar-profile-picture-icon-blue-background-flat-design-style-resources-graphic-element-design_991720-653.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\65c56b3f-64a9-40c1-b05e-12c7ad9a1fa1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\barista-coffee-icon-editable-stroke-260nw-2058210308.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\360_F_127158933_cDZA4suMXsx2n0LQ03FzpX50R7fBaUx2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\transaction-history-icon-vector-image-can-be-used-online-money-services_120816-273079.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4964945.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout-sign-out-icon-in-line-style-vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dark Brown Vintage Retro Coffee Shop Logo1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dark Brown Vintage Retro Coffee Shop Logo2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu-icon-vector-cafe-collection-thin-line-outline-illustration-linear-symbol-use-web-mobile-apps-logo-print-media-142612365.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9314f1b6-0e69-457a-bedb-f5ebc8571fdb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add to cart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Create  cafe image that i can add in my page of cafe some more design give some aesthetic vibe and the background be slightly blur slightly less blur.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A warm and inviting cafe interior with a rustic, bohemian aesthetic. Sunlight streams through large windows, illuminating wooden tables and comfortable seating. Shelves are adorned with plants and artisanal decor. T.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A warm and inviting cafe interior with a rustic, bohemian aesthetic. Sunlight streams through large windows, illuminating wooden tables and comfortable seating. Shelves are adorned with plants and artisanal decor. T1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d9e3ce45-9a38-4b48-b15c-c7580c4082da.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LogIn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A warm and inviting cafe interior with a rustic, bohemian aesthetic. Sunlight streams through large windows, illuminating wooden tables and comfortable seating. Shelves are adorned with plants and artisanal decor. T2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ORANGE SHADED COLOURS which is unique %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orange color solid.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\154346.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\red solid color.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout-sign-out.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logout-sign-out-icon-in-line-style-vector1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2025-09-11 134659.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\team-management.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\people.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sale-report.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\stats.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\catering.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\food-menu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2167-10-burntcaramel_2000x_bb8cf2e7-997a-4b42-b553-57dd08994dac_600x.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2025-09-13 112518.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2025-09-13 1125181.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2025-09-13 1125182.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2025-09-13 1125183.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2025-09-13 1125184.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2025-09-13 115424.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\self-service %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2025-09-13 123040.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2025-09-13 123055.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2025-09-13 123311.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cafe sales record image %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cafe sales record image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customer history images for cafe cartoon charechtersitic type less people more cafe visual %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\customer history images for cafe cartoon charechtersitic type less people more cafe visual.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee-house-queue-composition-isometric-barista-isolated-coffeeshop-image-blank-background-vector-illustration-262850521.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cafe shop  cashier taking order in counter images  backgorund is more visualized a nice coffe shop counter is shown from front a computer in counter to take order.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cafe shop  cashier taking order in counter images  backgorund is more visualized a nice coffe shop counter is shown from front a computer in counter to take order cartoon type but less people.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cafe shop customer ordering image cartoon type people a compuer in counter.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cafe shop  cashier taking order in counter images  backgorund is more visualized a nice coffe shop counter is shown from front a computer in counter to take order cartoon type but less people %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cafe shop food order adding to cart image cartoon type dark brown image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A charming cartoon illustration of a cafe shop scene, focusing on a hand adding a delicious food order to a shopping cart icon. The overall color palette is dominated by rich, dark brown tones, evoking a cozy and in.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cafe shop user profile page image.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brown-shade-brush-strokes.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brown-shade-brush-strokes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
